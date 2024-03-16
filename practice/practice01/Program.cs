@@ -7,8 +7,11 @@ class Program
         int[] arr1 = { 1, 2, 3, 4, 5,500 };
         int[] arr2 = { 1, 2, 3, 4, 5,-500 };
         
+        Console.WriteLine("Testing of Avg:" );
         Console.WriteLine("average: " + Avg(arr1));
         Console.WriteLine("average: " + Avg(arr2));
+        
+        Console.WriteLine("\nTesting of Max:" );
         Console.WriteLine("max: " + Max(arr1));
     }
 
@@ -16,8 +19,8 @@ class Program
     {
         float avg = 0;
         int sum = 0;
-        foreach (int a in arr)
-            sum += a;
+        foreach (int i in arr)
+            sum += i;
         avg = (float)sum / arr.Length;
         return avg;
     }
