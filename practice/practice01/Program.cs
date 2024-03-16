@@ -16,8 +16,8 @@ class Program
     {
         float avg = 0;
         int sum = 0;
-        foreach (int i in arr)
-            sum += i;
+        foreach (int a in arr)
+            sum += a;
         avg = (float)sum / arr.Length;
         return avg;
     }
