@@ -1,0 +1,6 @@
+@task9_HostAddress = http://localhost:5250
+
+GET {{task9_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
